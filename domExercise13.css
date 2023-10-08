@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Allan:wght@400;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@400;600&family=Noto+Sans+Symbols:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;600&family=Poppins:wght@500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+   font-family: "Montserrat", sans-serif;
+}
+body {
+   background: #84889c;
+}
+form {
+   background: #545871;
+   border-radius: 5px;
+}
+.title {
+   font-size: 20px;
+   text-transform: uppercase;
+   color: #ebd0ca;
+   letter-spacing: 5px;
+   font-weight: 700;
+   margin-bottom: 35px;
+}
+.input-container {
+   margin-bottom: 20px;
+}
+.input-container .msg {
+   display: none;
+   font-size: 13px;
+}
+.input-container.error .msg {
+   display: block;
+   color: #cd806f;
+}
+.input-container.success input {
+   color: #4b6e4b;
+   font-weight: bold;
+}
+.input-container input {
+   width: 100%;
+   padding: 10px;
+   border-radius: 3px;
+   border: 1px solid #9597a6;
+   outline: none;
+}
+.input-container input:focus {
+   border-color: #ebd0ca;
+}
+
+.input-container label {
+   display: block;
+   text-align: left;
+   margin-bottom: 5px;
+   color: #9597a6;
+}
+form {
+   width: 370px;
+   margin: 100px auto;
+   text-align: center;
+   padding: 30px;
+   border-radius: 3px;
+}
+input[type="submit"] {
+   margin-top: 3px;
+   border-radius: 3px;
+   width: 100%;
+   padding: 10px;
+   border: none;
+   background: #ebd0ca;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   cursor: pointer;
+}
+
+input[type="submit"]:hover {
+   background: #ffd5d2;
+}
